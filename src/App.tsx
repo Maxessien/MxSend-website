@@ -5,7 +5,7 @@ import NotFound from '@/pages/not-found';
 import Home from '@/pages/home';
 import Downloads from '@/pages/downloads';
 import { Route, Switch, Router as WouterRouter } from 'wouter';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const queryClient = new QueryClient();
 
